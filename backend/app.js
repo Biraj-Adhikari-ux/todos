@@ -3,8 +3,6 @@
 const express = require("express");
 const app = express();
 
-import { Model } from "mongoose";
-
 const cors = require("cors");
 app.use(cors());
 
